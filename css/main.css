@@ -6,17 +6,9 @@ html {
   box-sizing: inherit;
 }
 
-div {
-  float: left;
-  width: 25%;
-  text-align: center;
-  background-color: #666;
-  overflow: hidden;
-  padding: .5rem 1rem;
-}
-
 img {
   width: 100px;
+  padding-bottom: 1rem;
 }
 
 h1 {
@@ -28,22 +20,42 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.1-c {
-  background-color: #666;
-}
-
 h2 {
-  text-align: left;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: .875rem;
+  margin: 0;
 }
 
 p {
-  text-align: left;
+  margin: 0;
 }
 
 .btn {
   background-color: #333;
   color: #fff;
   text-decoration: none;
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: .6rem .8rem;
+  border-radius: 8px;
+}
+
+.aut {
+  font-style: italic;
+  margin: 0;
+}
+
+.col {
+  float: left;
+  width: 25%;
+  text-align: left;
+  background-color: #ccc;
+  overflow: hidden;
+  padding: .5rem 1rem 7rem;
+  font-size: .875rem;
+  line-height: 1.5;
+}
+
+.img {
+  text-align: center;
 }
